@@ -37,6 +37,18 @@ body {
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
+.websocket-configurator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #e9ecef;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
 .radar-line {
   animation: blink 1s infinite;
 }
